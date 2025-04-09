@@ -11,6 +11,7 @@ public class Ex9 {
 
         dezena = numTotal % 100 / 10;
         unidade = numTotal % 10;
+        //sempre resto de divisão por 10
         centena = numTotal / 100;
 
         numInvertido = unidade * 100 + dezena * 10 + centena;
